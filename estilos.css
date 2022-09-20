@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body  {
+    background-color: black;
+    color: rgb(207, 204, 204);
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+   
+}
+
+
+ul {
+    float: inline-end;
+    list-style: none;
+    font-size: 15px;
+    margin: 15px;
+
+}
+
+h1 {
+    font-size: 20px;
+    margin: 10px;
+    padding: 1px;
+   text-align: end;
+    
+
+}
+
+footer {
+    margin-top: 50px;
+    text-align: left;
+    font-size: 10px;
+    background-image: url(https://i.pinimg.com/564x/6b/e7/1c/6be71c7a797585397d1278a70f1f3b17.jpg)
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+margin-left: 10px;
+
+
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+p {
+    font-size: 10px;
+}
+
+.gallery-container {
+    display: grid;
+    flex-wrap: wrap;
+
+}
+
+.gallery__img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+}
+
